@@ -6,7 +6,7 @@ This script builds upon the Youtube API [https://developers.google.com/youtube/v
 
 ## Requirements to run
 
-* Follow the [Quickstart](https://developers.google.com/youtube/v3/quickstart/nodejs) and obtain a OAuth 2.0 Client ID json file & save the file as "client_secret.json"
+* Follow the [Quickstart](https://developers.google.com/youtube/v3/quickstart/nodejs) and obtain an OAuth 2.0 Client ID json file & save the file as "client_secret.json"
 * Create a Firestore database in your project
 * Create a service account with the role of "Cloud Datastore User", download the json and save the file as "serviceAccount.json"
 * In the [app.ts](./source/app.ts) file, replace with the necessary values here:
