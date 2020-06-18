@@ -1,0 +1,4 @@
+node_modules
+/output
+client_secret.json
+serviceAccount.json

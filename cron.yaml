@@ -1,0 +1,4 @@
+cron:
+  - description: "update video title job"
+    url: /cronJob
+    schedule: every 10 minutes synchronized

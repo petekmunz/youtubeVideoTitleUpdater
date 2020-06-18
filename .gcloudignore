@@ -1,0 +1,6 @@
+  
+#!include:.gitignore
+!output/
+\!source/
+!client_secret.json
+!serviceAccount.json

@@ -1,0 +1,28 @@
+{
+  "name": "youtubeupdater",
+  "version": "1.0.0",
+  "description": "Script to update youtube title",
+  "main": "output/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tsc": "tsc",
+    "start": "node ."
+  },
+  "keywords": [
+    "Youtube",
+    "api"
+  ],
+  "author": "Peter Munyao",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/firestore": "^3.8.5",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "googleapis": "^52.1.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.6",
+    "@types/node": "^14.0.13",
+    "typescript": "^3.9.5"
+  }
+}
